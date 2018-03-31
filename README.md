@@ -3,7 +3,7 @@ This mini-project is a part of the subject Multimedia Technology, Faculty of Inf
 
 This repository represents website about Prajoub-Kirikan, one of the provinces of Thailand.
 
-___________________
+<b>Project Site:</b> Unavailable
 
 <b>Project Status:</b> In Progress
 
@@ -12,7 +12,6 @@ ___________________
 <b>Statistics:</b>
 <ul>
   <li>Started: <i>31th March 2018</i></li>
-  <li>Completed: <i>In Progress</i></li>
   <li>
     Languages:
     <ul><i>
