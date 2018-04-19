@@ -4,10 +4,20 @@ body {
 }
 
 .header {
-	height: 100vh;
+	height: calc(100vh);
 	width: 100%;
-	/* background-image: url(../resource/header-bg.jpg); */
+	background-image: url(../resource/header-bg.jpg);
 	background-size: cover;
+	z-index: 0;
+}
+
+.landmark {
+	position: absolute;
+	height: calc(100vh);
+	width: 100%;
+	background-image: url(../resource/header-bg.jpg);
+	background-size: cover;
+	z-index: 10;
 }
 
 .video {
@@ -16,12 +26,33 @@ body {
 	left: 50%;
 	min-width: 100%;
 	min-height: 100%;
+	z-index: 0;
 	width: auto;
 	height: auto;
-	z-index: -100;
 	-webkit-transform: translateX(-50%) translateY(-50%);
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-o-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
-	background-size: cover;
-	-webkit-transition: opacity 1s;
-	transition: opacity 1s;
+}
+
+.video-overlay {
+	position: absolute;
+	width: 100%;
+	height: calc(100vh);
+	opacity: 0.5;
+	background-color: #000;
+	z-index: 2;
+}
+
+.header-logo {
+	position: relative;
+	top: 50%;
+	left: 15%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 70%;
+	height: auto;
+	z-index: 3;
 }
