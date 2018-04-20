@@ -11,10 +11,18 @@ body {
   z-index: 0;
 }
 
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
 .nav-link,
 .navbar-brand {
   font-family: 'Kanit';
   color: #fff;
+}
+
+.nav-link.active {
+  color: #fae3d9;
 }
 
 .nav-link:hover,
@@ -34,9 +42,12 @@ body {
 
 .landmark {
   position: relative;
+  padding-top: 5.5em;
   min-height: calc(100vh);
+  background-color: #bbded6;
   height: auto;
   width: 100%;
+  text-align: center;
   background-size: cover;
   z-index: 10;
 }
@@ -46,6 +57,7 @@ body {
   min-height: calc(100vh);
   height: auto;
   width: 100%;
+  text-align: center;
   background-size: cover;
   z-index: 10;
 }
@@ -55,6 +67,7 @@ body {
   min-height: calc(100vh);
   height: auto;
   width: 100%;
+  text-align: center;
   background-size: cover;
   z-index: 10;
 }
@@ -94,4 +107,14 @@ body {
   width: 70%;
   height: auto;
   z-index: 3;
+}
+
+.content-topic {
+  position: absolute;
+  margin-left: calc(50% - 150px);
+  width: 300px;
+  font-family: 'Itim';
+  font-size: 2em;
+  padding: 0.6em;
+  border: #000 solid 3px;
 }
