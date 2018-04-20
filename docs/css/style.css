@@ -1,58 +1,97 @@
 body {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .header {
-	height: calc(100vh);
-	width: 100%;
-	background-image: url(../resource/header-bg.jpg);
-	background-size: cover;
-	z-index: 0;
+  height: calc(100vh);
+  width: 100%;
+  background-image: url(../resource/header-bg.jpg);
+  background-size: cover;
+  z-index: 0;
+}
+
+.nav-link,
+.navbar-brand {
+  font-family: 'Kanit';
+  color: #fff;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  color: #fae3d9;
+}
+
+.header-nav-transparent {
+  background-color: transparent;
+  transition: background-color 0.5s ease 0s;
+}
+
+.header-nav-solid {
+  background-color: #135589;
+  transition: background-color 0.5s ease 0s;
 }
 
 .landmark {
-	position: absolute;
-	height: calc(100vh);
-	width: 100%;
-	background-image: url(../resource/header-bg.jpg);
-	background-size: cover;
-	z-index: 10;
+  position: relative;
+  min-height: calc(100vh);
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  z-index: 10;
+}
+
+.hotel {
+  position: relative;
+  min-height: calc(100vh);
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  z-index: 10;
+}
+
+.gift {
+  position: relative;
+  min-height: calc(100vh);
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  z-index: 10;
 }
 
 .video {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	min-width: 100%;
-	min-height: 100%;
-	z-index: 0;
-	width: auto;
-	height: auto;
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-o-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+  width: auto;
+  height: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
 }
 
 .video-overlay {
-	position: absolute;
-	width: 100%;
-	height: calc(100vh);
-	opacity: 0.5;
-	background-color: #000;
-	z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: calc(100vh);
+  opacity: 0.5;
+  background-color: #000;
+  z-index: 2;
 }
 
 .header-logo {
-	position: relative;
-	top: 50%;
-	left: 15%;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
-	width: 70%;
-	height: auto;
-	z-index: 3;
+  position: relative;
+  top: 50%;
+  left: 15%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 70%;
+  height: auto;
+  z-index: 3;
 }
