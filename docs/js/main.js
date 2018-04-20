@@ -31,7 +31,7 @@ $(document).ready(function() {
           {
             scrollTop: target.offset().top
           },
-          2000,
+          1250,
           'easeInOutExpo'
         );
         return false;
@@ -46,7 +46,7 @@ $(document).ready(function() {
 
   // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
-    target: '#mainNav',
+    target: '#navbarResponsive',
     offset: 54
   });
 })(jQuery); // End of use strict
