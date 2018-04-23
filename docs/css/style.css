@@ -3,6 +3,28 @@ body {
   padding: 0px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Kanit', sans-serif;
+}
+
+p {
+  font-family: 'Kanit', sans-serif;
+}
+
+a {
+  color: #4BB4FC; }
+  a:hover {
+    color: #2A93D5; }
+
+::selection {
+  background: #4BB4FC;
+  text-shadow: none; }
+
 .header {
   height: calc(100vh);
   width: 100%;
@@ -22,12 +44,12 @@ body {
 }
 
 .nav-link.active {
-  color: #fae3d9;
+  color: #AED9DA;
 }
 
 .nav-link:hover,
 .navbar-brand:hover {
-  color: #fae3d9;
+  color: #AED9DA;
 }
 
 .header-nav-transparent {
@@ -40,35 +62,69 @@ body {
   transition: background-color 0.5s ease 0s;
 }
 
+.about {
+  position: relative;
+  padding-top: 5.5em;
+  min-height: calc(100vh);
+  height: auto;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  z-index: 10;
+  background-color: #FFFFFF;
+}
+
 .landmark {
   position: relative;
   padding-top: 5.5em;
   min-height: calc(100vh);
-  background-color: #bbded6;
   height: auto;
   width: 100%;
   text-align: center;
   background-size: cover;
   z-index: 10;
+  background-color: #FFFFFF;
 }
 
 .hotel {
   position: relative;
+  padding-top: 5.5em;
   min-height: calc(100vh);
   height: auto;
   width: 100%;
   text-align: center;
   background-size: cover;
   z-index: 10;
+  background-color: #FFFFFF;
 }
 
-.gift {
+.souvenir {
   position: relative;
+  padding-top: 5.5em;
   min-height: calc(100vh);
   height: auto;
   width: 100%;
   text-align: center;
   background-size: cover;
+  z-index: 10;
+  background-color: #FFFFFF;
+}
+
+.team {
+  position: relative;
+  padding-top: 5.5em;
+  min-height: calc(100vh);
+  height: auto;
+  width: 100%;
+  text-align: center;
+  background-size: cover;
+  z-index: 10;
+  background-color: #FFFFFF;
+}
+
+footer {
+  padding: 25px 0;
+  text-align: center;
   z-index: 10;
 }
 
@@ -91,7 +147,7 @@ body {
   position: absolute;
   width: 100%;
   height: calc(100vh);
-  opacity: 0.5;
+  opacity: 0.4;
   background-color: #000;
   z-index: 2;
 }
@@ -110,11 +166,49 @@ body {
 }
 
 .content-topic {
-  position: absolute;
   margin-left: calc(50% - 150px);
+  margin-bottom: 75px;
   width: 300px;
   font-family: 'Itim';
   font-size: 2em;
   padding: 0.6em;
   border: #000 solid 3px;
 }
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+  .team-member img {
+    width: 225px;
+    height: 225px;
+  }
+  .team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  .team-member p {
+    margin-top: 0;
+  }
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+  ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: white;
+    border-radius: 100%;
+    outline: none;
+    background-color: #252525;
+  }
+    ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+      background-color: #2A93D5;
+    }
