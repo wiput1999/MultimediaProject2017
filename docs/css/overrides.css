@@ -31,10 +31,10 @@
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-	height: 2em;
-	width: 2em;
+	height: 2.1em;
+	width: 2.1em;
 	background-color: rgba(0, 0, 0, 0.3);
-	background-size: 70%, 70%;
+	background-size: 65%, 65%;
 	border-radius: 100%;
 	transition: all 0.3s;
 }
