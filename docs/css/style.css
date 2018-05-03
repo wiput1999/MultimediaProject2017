@@ -126,6 +126,7 @@ footer {
   text-align: center;
   margin-top: -1em;
   margin-bottom: 3em;
+  font-family: 'Kanit', sans-serif;
 }
 
 .content {
@@ -139,6 +140,13 @@ footer {
   background-size: cover;
   z-index: 10;
   background-color: #ffffff;
+}
+
+#about iframe {
+  width: 100%;
+  height: 56.25vh;
+  border: 0;
+  margin: auto;
 }
 
 /* Map */
