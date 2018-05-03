@@ -1,9 +1,5 @@
 /* Bootstrap Carousel Overrides */
 
-.carousel {
-  margin-bottom: 100px;
-}
-
 .carousel-item {
   height: auto;
   background: no-repeat center center scroll;
