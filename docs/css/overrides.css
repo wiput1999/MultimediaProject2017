@@ -1,44 +1,46 @@
 /* Bootstrap Carousel Overrides */
 
 .carousel {
-	margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .carousel-item {
-	height: auto;
-	background: no-repeat center center scroll;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	margin: auto;
+  height: auto;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: auto;
 }
 
 .carousel-control-prev {
-	width: 10%;
-	top: 45%;
-	bottom: 45%;
-	left: -10%;
-	opacity: .9;
+  width: 10%;
+  top: 45%;
+  bottom: 45%;
+  left: -10%;
+  opacity: 0.9;
 }
 
 .carousel-control-next {
-	width: 10%;
-	top: 45%;
-	bottom: 45%;
-	right: -10%;
-	opacity: .9;
+  width: 10%;
+  top: 45%;
+  bottom: 45%;
+  right: -10%;
+  opacity: 0.9;
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-	height: 2.1em;
-	width: 2.1em;
-	background-color: rgba(0, 0, 0, 0.3);
-	background-size: 65%, 65%;
-	border-radius: 100%;
-	transition: all 0.3s;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 2.1em;
+  width: 2.1em;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 65%, 65%;
+  border-radius: 100%;
+  transition: all 0.3s;
 }
 
-.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
-	background-color: #2A93D5;
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: #2a93d5;
 }
