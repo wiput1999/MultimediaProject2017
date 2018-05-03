@@ -144,7 +144,7 @@ footer {
 
 #about iframe {
   width: 100%;
-  height: 56.25vh;
+  height: 64vh;
   border: 0;
   margin: auto;
 }
@@ -329,6 +329,15 @@ ul.social-buttons li a:hover {
 
 .card-modal .modal-content button {
   cursor: pointer;
+}
+
+.card-modal .modal-content .modal-body {
+	font-family: 'Kanit', sans-serif;
+}
+
+.card-modal .modal-content .modal-body .modal-paragraph {
+	text-indent: 2.5em;
+	text-align: justify;
 }
 
 .card-modal .close-modal {
