@@ -5,13 +5,14 @@ This repository represents website about Prajoub-Kirikan, one of the provinces o
 
 <b>Project Site:</b> https://multi2017.wiput.me/
 
-<b>Project Status:</b> In Progress
+<b>Project Status:</b> Completed
 
 ___________________
 
 <b>Statistics:</b>
 <ul>
   <li>Started: <i>31th March 2018</i></li>
+  <li>Completed: <i>4th May 2018</i></li>
   <li>
     Languages:
     <ul><i>
