@@ -1,7 +1,7 @@
 # Multimedia-Technology-2017-Project
 This mini-project is a part of the subject Multimedia Technology, Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang <i>(KMITL)</i>.
 
-This repository represents website about Prajoub-Kirikan, one of the provinces of Thailand.
+This repository represents website about Prachoup Khiri Khan, one of the provinces of Thailand.
 
 <b>Project Site:</b> https://multi2017.wiput.me/
 
