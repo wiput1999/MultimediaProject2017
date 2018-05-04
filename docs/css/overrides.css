@@ -1,4 +1,4 @@
-/* Bootstrap Carousel Overrides */
+/* Bootstrap Overrides */
 
 .carousel-item {
   height: auto;
@@ -39,4 +39,14 @@
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
   background-color: #2a93d5;
+}
+
+.carousel-caption {
+  background-color: #2a93d5;
+}
+
+.navbar-toggler {
+  border: 1px solid white;
+  color: #fff;
+  font-size: 1.5em;
 }
