@@ -1,5 +1,5 @@
-# Multimedia-Technology-2017-Project
-## About
+# Multimedia Technology 2017 Project
+
 This mini-project is a part of the subject Multimedia Technology, Faculty of Information Technology, King Mongkut's Institute of Technology Ladkrabang *(KMITL)*.
 
 This repository represents website about Prachoup Khiri Khan, one of the provinces of Thailand.
